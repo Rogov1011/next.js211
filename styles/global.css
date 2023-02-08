@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px;
+}
+.button{
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 20%;
+    font-size: 20px;
+    border: none;
+    box-shadow: 5px 5px 5px;
+}
+.films{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px
+
+}
+.movie{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px;
+}
+.movie_colomn{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-left: 30px;
+    justify-content: space-between;
+}

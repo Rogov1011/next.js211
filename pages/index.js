@@ -1,5 +1,6 @@
-export default function HomePage() {
-    return <div>СПОКОЙНОЙ НОЧИ ВАМ!!!
-      Я ТЕБЯ ЛЮБЛЮ
+function HomePage() {
+  return <div>
+    <App/>
     </div>
-  }
+  };
+  export default HomePage
